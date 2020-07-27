@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<h1>Code Quiz</h1>
+<h2 >Your Score: <span id= "score"></span></h2>
+    
+
+<body>
+    <div class="container-2">
+        <header>Try to get a high score</header> 
+        
+        <h1 id = "instructions">Answer questions in the alotted time limit<br>
+            Wrong answers will deduct 5 seconds off your time limit</h1>
+           <button type="button" class="startButton" data-toggle="button" aria-pressed="false" autocomplete="off">Start</button>
+           <div id="countdown"></div>
+    </div>
+    <div class="container">
+        
+        <div class= "quiz-board">
+        <div class="col-10 form-group-lg"></div>
+
+             <!--------------------------- first set of mulitple choice------------------------------------------>
+            <div class= "container-Q1">A class is in CSS is represented as which symbol<br>
+                <button>.</button>
+            <br>
+                <button>%</button>
+            <br>
+                <button>@</button>
+            <br>
+                <button>?</button> 
+            </div>
+            
+             <!-------------------------------------------------------------------------------------------------->                                   
+            
+             <!--------------------------- second set of mulitple choice------------------------------------------->
+
+             <div class= "container-Q2">An ID in CSS is represented as which symbol<br>
+                <button>#</button>
+            <br>
+                <button>^</button> 
+            <br>
+                <button>:</button>
+            <br>
+                <button>$</button>
+            </div>
+        </div>                            
+    </div>    
+
+
+        
+
+    
+<!-- JQuery -->
+<script src="https://code.jquery.com/jquery.js"></script>
+
+
+<!-- Javascript -->
+<script src="script.js"></script>
+</body>
+</html>
