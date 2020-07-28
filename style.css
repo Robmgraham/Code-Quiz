@@ -35,10 +35,20 @@ padding:color= green}
     margin:20px;
 }
 
-.container-Q1 {
+#container-Q1 {
+    display:none;
     background-color:red;
 }
 
 .container-Q2 {
+    display:none;
     background-color: brown;
+}
+.nextButton {
+    display: none;
+}
+
+.finishButton {
+    float: right;
+    display:none;
 }
