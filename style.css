@@ -52,3 +52,7 @@ padding:color= green}
     float: right;
     display:none;
 }
+
+.scoreboard {
+    display:none;
+}

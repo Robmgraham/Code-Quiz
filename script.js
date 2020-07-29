@@ -12,7 +12,7 @@ startTimer.addEventListener("click", function () {
       document.getElementById("countdown").innerHTML = timeleft + "seconds remaining";
     }
     timeleft -= 1;
-    console.log(timeleft);
+    
   }, 1000);
 
 });
@@ -37,10 +37,10 @@ Q1.addEventListener("click", function () {
 
   //what does the finish button do.
   var fin = (document.body.children[5]);
-  fin.addEventListener("cick", function () {
+  fin.addEventListener("click", function () {
     document.body.children[5].style.display = "none"; //finish button dissapears
     document.body.children[3].children[1].style.display = "none"; // second question dissapears
-  
+    document.body.children[6].style.display ="block"; //scoreboard appears
   });
 
 
@@ -66,3 +66,7 @@ function displayScore() {
 
 }
 displayScore();
+
+// leaderboard
+var leaderboard
+ 
